@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Household E-mail Agent</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --rule: #e2e2e2;
+    --link: #1a4fa0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141414;
+      --fg: #ececec;
+      --muted: #a8a8a8;
+      --rule: #2e2e2e;
+      --link: #8ab4f8;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141414;
+    --fg: #ececec;
+    --muted: #a8a8a8;
+    --rule: #2e2e2e;
+    --link: #8ab4f8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 0 16px;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 4rem 0 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.01em; }
+  .tagline { color: var(--muted); margin: 0 0 2.5rem; font-size: 1.05rem; }
+  h2 { font-size: 1.05rem; margin: 2.25rem 0 .6rem; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+  li { margin-bottom: .4rem; }
+  a { color: var(--link); }
+  footer {
+    margin-top: 3rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+  }
+  footer a { margin-right: 1.25rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Household E-mail Agent</h1>
+  <p class="tagline">A private, single-user assistant that helps one person manage their own Gmail inbox.</p>
+
+  <h2>What it is</h2>
+  <p>
+    Household E-mail Agent is a personal automation tool. It runs on hardware owned and
+    operated by its sole user, on that user's own home network. It is not a commercial
+    product, it is not distributed, and it is not offered to other people. There is no
+    sign-up, no customer base, and no public service behind it.
+  </p>
+
+  <h2>What it does</h2>
+  <p>
+    Once the owner authorizes it against their own Google Account, the agent connects to
+    that single Gmail mailbox and assists with routine inbox work:
+  </p>
+  <ul>
+    <li>Reading and summarizing incoming mail</li>
+    <li>Sorting, labeling, and filing messages</li>
+    <li>Drafting and sending replies on the owner's behalf</li>
+    <li>Surfacing items that need the owner's attention</li>
+  </ul>
+  <p>
+    It acts only on the mailbox of the person who authorized it, and only while that
+    authorization remains in place.
+  </p>
+
+  <h2>Who it is for</h2>
+  <p>
+    One person: the owner of the account it is connected to. No other users are supported
+    or intended.
+  </p>
+
+  <h2>Your data</h2>
+  <p>
+    The agent handles the owner's own mail and nothing else. Message content stays on the
+    owner's own machine and is never sold, shared, or used for advertising. The
+    <a href="privacy.html">Privacy Policy</a> explains in full what is accessed, how it is
+    used, how long it is kept, and how access can be revoked at any time.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this application can be sent to the address listed on the Google
+    consent screen for this app.
+  </p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </footer>
+</main>
+</body>
+</html>
